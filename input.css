@@ -42,6 +42,7 @@ h3 {
   border-radius: 20px;
 }
 .sub-wrap {
+  min-width: 792px;
   width: 990px;
   margin: auto;
 }
@@ -128,6 +129,9 @@ header {
 }
 
 /* ========= Z Flip Section */
+section.s1.main-wrap {
+  background: transparent;
+}
 .s1-items {
   width: 90%;
   margin: auto;
@@ -164,6 +168,7 @@ header {
 section.s2 {
   padding-top: 35px;
   padding-bottom: 60px;
+  background: transparent;
 }
 .flex-item-part {
   display: grid;
@@ -579,13 +584,11 @@ section.main-wrap.sel-m2 {
 .selfi-expe-1 {
   padding-bottom: 80px;
 }
-.m2-img-box {
-  position: relative;
-  left: 18%;
-}
 .m2-img-box img {
   border-radius: 20px;
   margin-bottom: 5px;
+  margin-left: 140px;
+  border-top-left-radius: 20px;
 }
 .m2-sub-logo {
   display: flex;
@@ -692,7 +695,7 @@ main.m3-meet {
   margin-bottom: 100px;
 }
 main.m3-meet .main-wrap {
-  background: #ffffff;
+  background: #fff;
   background-image: linear-gradient(#eeeadf, #ccdad4);
 }
 .m3-top-img {
@@ -733,7 +736,6 @@ main.m3-meet .main-wrap {
 .sub-wrap.met-i-p-2 {
   display: grid;
   grid-template-columns: 50% 50%;
-  align-items: center;
   padding-bottom: 80px;
 }
 .img-met-p-2 {
@@ -741,6 +743,16 @@ main.m3-meet .main-wrap {
 }
 .img-met-p-2 img {
   border-radius: 20px;
+}
+.mit-img-cn {
+  position: relative;
+}
+.mit-img-cn img {
+  position: absolute;
+}
+.mit-img-cn img:first-child {
+  left: 45px;
+  top: 71px;
 }
 .img-met-p-2 svg {
   position: absolute;
@@ -771,4 +783,170 @@ main.m3-meet .main-wrap {
 .sub-wrap.met-i-p-2.met-i-p-5 .img-met-p-2 p {
   margin-top: 20px;
   margin-left: 12px;
+}
+
+/* Battery Section================= */
+section.main-wrap.bttry-s {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+.bttry-tp-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.bttry-tp-1.bttry-tp-2 {
+  margin-top: 85px;
+}
+.bt-top-img img {
+  transform: scale(1.1);
+}
+.bttry-tp-2 .text-bttr p {
+  margin-bottom: 40px;
+}
+
+/*  New flex Part 3 ================= */
+.new-wp-main {padding: 100px 0px;margin-bottom: 100px;}
+.new-p-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 100px;
+}
+.n-p-1-t {
+  padding-top: 50px;
+}
+.n-p-1-t h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.n-p-1-t p {
+  margin-bottom: 40px;
+}
+.n-p-1-t p:nth-child(3) {
+  margin-bottom: 60px;
+}
+.n-p-img {
+  position: relative;
+}
+.n-p-img img {
+  border-radius: 20px;
+}
+.n-p-img svg {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  font-size: 35px;
+  color: #9e9e9e;
+}
+.new-p-t-2 {
+  margin-bottom: 70px;
+}
+.new-p-t-2 h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+/* ====================== */
+.almn-wr-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.aln-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.aln-text-b {
+  padding-left: 60px;
+}
+.sub-aln-bx {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
+.sub-aln-bx h1 {
+  font-size: 22px;
+  color: #555555;
+  position: relative;
+}
+.sub-aln-bx p {
+  padding: 30px 0px;
+}
+.sbx-1 {
+  padding-top: 0px;
+  border-top: 0px;
+}
+.sub-aln-bx h1 svg {
+  position: absolute;
+  right: 0;
+  top: 3px;
+}
+.sbx-1 h1 {
+  color: #1d1d1d;
+}
+.sm-care {
+  width: 397px;
+  background: #F6F6F6;
+  padding: 50px 0px 50px 45px;
+  border-radius: 20px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sm-care img {
+  width: 128px;
+  height: 34px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+/* ================== */
+section.smrt-watch.main-wrap {
+  background: transparent;
+  margin-bottom: 150px;
+}
+.smrt-wt-1 {
+  position: relative;
+}
+.smrt-w-img {
+  width: 100%;
+}
+.smrt-w-img img {
+  width: 100%;
+}
+.smrt-w-text {
+  position: absolute;
+}
+.smrt-w-text h3 {
+  margin-bottom: 35px;
+}
+.smrt-w-text p {
+  margin-bottom: 30px;
+}
+.smart-un-box {
+  display: flex;
+  height: 170px;
+  background: #cb2f2f;
+  align-items: center;
+}
+.watch-un {
+  width: 104px;
+  height: 170px;
+}
+.watch-un-tx span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.watch-un-tx h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.watch-un-tx a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.watch-un-tx a img {
+  width: 10px;
 }
