@@ -358,14 +358,15 @@ section.main-wrap.un-s1 {
 }
 /* Phone Discribation=== */
 .sub-wrap.dis-un-1 {
-  padding: 0px 20px;
 }
 .sub-wrap.dis-un-1 h1 {
   font-size: 60px;
   margin-bottom: 40px;
+  padding-left: 20px;
 }
 .sub-wrap.dis-un-1 p {
   color: #000;
+  padding-left: 20px;
 }
 .sub-wrap.dis-un-1 p:last-child {
   margin-top: 35px;
@@ -676,14 +677,14 @@ section.main-wrap.sel-m2 {
   border-radius: 20px;
 }
 .selfi-expe-2.selfi-expe-4 .flax-acm-img svg {
-    position: absolute;
-    bottom: 50px;
-    right: 52px;
-    font-size: 35px;
-    color: #ffffffc9;
+  position: absolute;
+  bottom: 50px;
+  right: 52px;
+  font-size: 35px;
+  color: #ffffffc9;
 }
 .selfi-expe-2.selfi-expe-4 .flax-acm-img {
-    position: relative;
+  position: relative;
 }
 .sharp-img {
   width: 40%;
@@ -807,7 +808,10 @@ section.main-wrap.bttry-s {
 }
 
 /*  New flex Part 3 ================= */
-.new-wp-main {padding: 100px 0px;margin-bottom: 100px;}
+.new-wp-main {
+  padding: 100px 0px;
+  margin-bottom: 100px;
+}
 .new-p-1 {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -885,7 +889,7 @@ section.main-wrap.bttry-s {
 }
 .sm-care {
   width: 397px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 50px 0px 50px 45px;
   border-radius: 20px;
   margin-left: auto;
@@ -903,7 +907,7 @@ section.main-wrap.bttry-s {
 /* ================== */
 section.smrt-watch.main-wrap {
   background: transparent;
-  margin-bottom: 150px;
+  padding-bottom: 80px;
 }
 .smrt-wt-1 {
   position: relative;
@@ -926,8 +930,11 @@ section.smrt-watch.main-wrap {
 .smart-un-box {
   display: flex;
   height: 170px;
-  background: #cb2f2f;
+  background-image: url(./img/sec12-3.jpg);
   align-items: center;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .watch-un {
   width: 104px;
@@ -936,17 +943,135 @@ section.smrt-watch.main-wrap {
 .watch-un-tx span {
   font-size: 14px;
   font-weight: 600;
+  color: #fff;
 }
 .watch-un-tx h3 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #fff;
 }
 .watch-un-tx a {
   font-size: 14px;
   font-weight: 600;
   text-decoration: underline;
+  color: #fff;
 }
 .watch-un-tx a img {
   width: 10px;
 }
+.watch-un {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+/* Smart Plantans part 2=== */
+.planet-box {
+  margin-top: 210px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+}
+.plant-text {
+  padding-top: 70px;
+}
+.plant-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.plant-text p {
+  margin-top: 30px;
+}
+
+/* Switch Upgrade Test===== */
+section.switch-planat {
+  background: #fff;
+  padding-top: 120px;
+  padding-bottom: 215px;
+}
+.sw-img-box-all {
+  margin-top: 40px;
+  background: #fcfcfc;
+  height: 640px;
+  border-radius: 20px;
+}
+.switch-item-alls {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  grid-column-gap: 20px;
+}
+.sw-img-s img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: contain;
+}
+.sw-text-a h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 28px;
+}
+.sw-text-a {
+  padding-left: 20px;
+}
+.sw-text-a p {
+  margin-bottom: 35px;
+}
+.sw-text-a a {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.sw-text-a.sw-text-a-1 img {
+  margin-top: 15px;
+  width: auto;
+}
+
+/* Ealvate Day =============== */
+.elvat-box {
+  margin-top: 190px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  background: #f4f4f4;
+  height: 415px;
+  border-radius: 20px;
+}
+.elvt-img {
+  width: 100%;
+  height: 100%;
+}
+.elvt-img img {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.elvat-text-box {
+  padding-left: 35px;
+}
+.elvat-text-box h3 {
+  margin-bottom: 25px;
+}
+/* Question Section=========== */
+.fr-ques {
+  margin-top: 140px;
+}
+.fr-ques ul li {
+  font-size: 22px;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+}
+.fr-ques ul li svg {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  font-size: 25px;
+}
+
+/* Responsive ==================================================================== */
+
