@@ -32,6 +32,9 @@ h3 {
   font-weight: 600;
   color: #000;
 }
+.res-com-p{
+  display: none;
+}
 
 /* ==================== Custom Style*/
 .main-wrap {
@@ -1445,6 +1448,12 @@ section.switch-planat {
   p {
     font-size: 14px;
   }
+  .res-com-p{
+    display: block !important;
+  }
+  br{
+    display: none !important;
+  }
   .btn {
     font-size: 12px;
     min-height: 38px;
@@ -1914,7 +1923,7 @@ section.switch-planat {
     padding-top: 60px;
   }
   .elvat-text-box {
-    padding-left: 0px;
+    padding-left: 10px;
   }
   .fr-ques {
     margin-top: 80px;
