@@ -477,8 +477,9 @@ span.cl-cm-1.cl-n-4 {
 }
 .color-changer-dot {
   position: absolute;
-  right: 0;
-  left: 25px;
+  width: 180px;
+  top: 5px;
+  right: 29%;
 }
 
 /* Better Togather==== */
@@ -496,6 +497,7 @@ span.cl-cm-1.cl-n-4 {
   height: 850px;
   object-fit: cover;
   object-position: bottom;
+  border-radius: 20px;
 }
 .s4-l-text {
   padding: 55px 0px 0px 50px;
@@ -1081,8 +1083,8 @@ section.switch-planat {
   display: none;
 }
 .selfi-expe-2.selfi-expe-4 .flax-acm-img svg {
-  top: 66%;
-  right: 2%;
+  top: 82%;
+  right: 12%;
 }
 .sm-dev-smart {
   display: none;
@@ -1090,7 +1092,7 @@ section.switch-planat {
 
 /* Responsive ==================================================================== */
 /* Large devices (laptops/desktops) */
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) {
   h3 {
     font-size: 24px;
     font-weight: 600;
@@ -1257,7 +1259,7 @@ section.switch-planat {
     width: 35%;
   }
   .selfi-expe-2.selfi-expe-2 .flax-acm-img {
-    text-align: left;
+    /* text-align: left; */
   }
   .selfi-expe-2.selfi-expe-2 .flex-bm-logo {
     justify-content: start;
@@ -1273,7 +1275,7 @@ section.switch-planat {
     font-size: 14px;
   }
   .selfi-expe-2.selfi-expe-4 .flax-acm-img {
-    text-align: right;
+    /* text-align: right; */
   }
   .selfi-expe-2.selfi-expe-4 .flex-bm-logo {
     justify-content: start;
@@ -1327,7 +1329,7 @@ section.switch-planat {
     width: 335px;
   }
   .n-p-img svg {
-    bottom: 41%;
+    bottom: 13%;
   }
   .n-p-1-t {
     padding-top: 0px;
@@ -1434,6 +1436,10 @@ section.switch-planat {
   .planet-box {
     margin-top: 110px;
   }
+  .selfi-expe-2.selfi-expe-4 .flax-acm-img svg {
+    top: 65%;
+    right: 3%;
+}
 }
 
 /* Max-With 767px ) ==================================================================================*/
@@ -1443,7 +1449,7 @@ section.switch-planat {
     font-weight: 600;
   }
   p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .btn {
     font-size: 12px;
@@ -1519,10 +1525,10 @@ section.switch-planat {
     font-size: 13px;
   }
   .flex-item-part {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
   .f-itm-2 {
     height: 435px;
@@ -1692,7 +1698,8 @@ section.switch-planat {
     width: 335px;
   }
   .n-p-img svg {
-    bottom: 41%;
+    bottom: 6%;
+    right: 0%;
   }
   .n-p-1-t {
     padding-top: 0px;
@@ -1960,4 +1967,5 @@ section.switch-planat {
     left: 47px;
     top: 25px;
   }
+
 }
